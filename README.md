@@ -1,5 +1,11 @@
 # CodeGrids
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.5-blue)](https://www.typescriptlang.org/)
+[![React](https://img.shields.io/badge/React-18.3-blue)](https://reactjs.org/)
+[![Vite](https://img.shields.io/badge/Vite-5.4-blue)](https://vitejs.dev/)
+
+
 ### https://codegrids.netlify.app/
 
 Visual code snippet organizer with diff comparison capabilities. Arrange, compare, and manage code snippets in an intuitive canvas interface.
