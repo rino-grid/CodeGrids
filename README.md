@@ -1,11 +1,11 @@
 # CodeGrids
 
+### https://codegrids.netlify.app/
+
+Visual code snippet organizer with diff comparison capabilities. Arrange, compare, and manage code snippets in an intuitive canvas interface.
 
 https://github.com/user-attachments/assets/1be1dcf3-16cd-4531-8479-52dba43483cf
 
-
-
-Visual code snippet organizer with diff comparison capabilities. Arrange, compare, and manage code snippets in an intuitive canvas interface.
 
 ## Features
 
