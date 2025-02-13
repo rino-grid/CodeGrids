@@ -15,8 +15,7 @@ https://github.com/user-attachments/assets/1be1dcf3-16cd-4531-8479-52dba43483cf
 - Copy/paste/cut operations
 - Keyboard shortcuts
 - Undo functionality
-- Block resizing
-- Notes for each snippet
+- Notes for snippets
 
 ## Keyboard Shortcuts
 
