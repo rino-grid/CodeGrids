@@ -43,3 +43,21 @@ npm run dev
 ```bash
 npm run build
 ```
+
+## Technologies
+
+### Core
+- [React](https://reactjs.org/) - UI framework
+- [TypeScript](https://www.typescriptlang.org/) - Type-safe JavaScript
+- [Vite](https://vitejs.dev/) - Build tool and dev server
+
+### UI & Styling
+- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
+- [Lucide React](https://lucide.dev/) - Icons
+- [Radix UI](https://www.radix-ui.com/) - Unstyled, accessible components
+- [class-variance-authority](https://cva.style/) - Component variants
+
+### Canvas & Code
+- [React Flow](https://reactflow.dev/) - Node-based canvas interface
+- [Monaco Editor](https://microsoft.github.io/monaco-editor/) - Code editor (powers VS Code)
+- [highlight.js](https://highlightjs.org/) - Syntax highlighting
