@@ -1,0 +1,176 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Scrollbar Styles */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #27272a;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #52525b;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #71717a;
+}
+
+/* Cursor styles for draggable elements */
+.cursor-move {
+  cursor: move !important;
+  cursor: grab !important;
+}
+
+.cursor-move:active {
+  cursor: grabbing !important;
+}
+
+/* Prevent text selection while dragging */
+.cursor-move * {
+  user-select: none;
+}
+
+/* Context menu scaling fix */
+.react-flow__viewport {
+  cursor: default !important;
+}
+
+/* Style React Flow Attribution */
+.react-flow__attribution {
+  background: rgba(0, 0, 0, 0.7) !important;
+  color: rgba(255, 255, 255, 0.4) !important;
+  border: none !important;
+}
+
+.react-flow__attribution a {
+  color: rgba(255, 255, 255, 0.5) !important;
+  text-decoration: none !important;
+}
+
+.react-flow__attribution a:hover {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+/* React Flow Controls */
+.react-flow__controls {
+  box-shadow: none !important;
+  padding: 4px !important;
+}
+
+.react-flow__controls-button {
+  background: rgba(255, 255, 255, 0.05) !important;
+  border-color: rgba(255, 255, 255, 0.1) !important;
+  color: rgba(255, 255, 255, 0.5) !important;
+  transition: all 0.2s ease-in-out !important;
+}
+
+.react-flow__controls-button:hover {
+  background: rgba(255, 255, 255, 0.1) !important;
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.react-flow__controls-button svg {
+  fill: currentColor !important;
+}
+
+/* Monaco Editor Overrides */
+.monaco-editor .margin,
+.monaco-diff-editor .margin {
+  background-color: #1e1e1e !important;
+}
+
+.monaco-editor .line-numbers,
+.monaco-diff-editor .line-numbers {
+  color: #6e7681 !important;
+}
+
+.monaco-editor .current-line,
+.monaco-diff-editor .current-line {
+  border: none !important;
+  background-color: #2d3139 !important;
+}
+
+.monaco-editor .view-overlays .current-line,
+.monaco-diff-editor .view-overlays .current-line {
+  border: none !important;
+  background-color: #2d3139 !important;
+}
+
+/* Make scrollbars thinner and more subtle */
+.monaco-scrollable-element > .scrollbar > .slider {
+  background: rgba(121, 121, 121, 0.4) !important;
+}
+
+.monaco-scrollable-element > .scrollbar > .slider:hover {
+  background: rgba(100, 100, 100, 0.7) !important;
+}
+
+.monaco-scrollable-element > .scrollbar {
+  width: 8px !important;
+  height: 8px !important;
+}
+
+/* Improve diff colors */
+.monaco-diff-editor .diffOverview {
+  background-color: #1e1e1e !important;
+}
+
+.monaco-diff-editor .diffOverview .diff-added {
+  background-color: rgba(63, 185, 80, 0.4) !important;
+}
+
+.monaco-diff-editor .diffOverview .diff-removed {
+  background-color: rgba(248, 81, 73, 0.4) !important;
+}
+
+.monaco-diff-editor .diff-review-line-number {
+  color: #6e7681 !important;
+}
+
+.monaco-editor .line-insert,
+.monaco-diff-editor .line-insert,
+.monaco-editor .char-insert,
+.monaco-diff-editor .char-insert {
+  background-color: rgba(63, 185, 80, 0.15) !important;
+}
+
+.monaco-editor .line-delete,
+.monaco-diff-editor .line-delete,
+.monaco-editor .char-delete,
+.monaco-diff-editor .char-delete {
+  background-color: rgba(248, 81, 73, 0.15) !important;
+}
+
+/* Prevent text selection during resize */
+.resize-active {
+  user-select: none !important;
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+}
+
+/* ReactFlow node dragging */
+.react-flow__node {
+  cursor: move !important;
+}
+
+.react-flow__node:active {
+  cursor: grabbing !important;
+}
+
+.react-flow__node button,
+.react-flow__node .monaco-editor,
+.react-flow__node .monaco-diff-editor {
+  cursor: default !important;
+}
+
+.react-flow__node .cursor-se-resize {
+  cursor: se-resize !important;
+}
